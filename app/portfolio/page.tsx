@@ -97,7 +97,7 @@ export default function PortfolioPage() {
       <div className="w-1 h-1 bg-red-600"></div> Lab Ops & Dev
     </div>
     <p>
-      In my private sector, I maintain a high-availability <strong className="text-white">Proxmox Cluster</strong> utilizing <strong className="text-white">ZFS Mirroring</strong> and <strong className="text-white">Onada</strong> for networking This environment serves as the staging ground for my automated Python telemetry scripts.
+      In my private sector, I maintain a high-availability <strong className="text-white">Proxmox Cluster</strong> utilizing <strong className="text-white">ZFS Mirroring</strong> and <strong className="text-white">Omada</strong> for networking This environment serves as the staging ground for my automated Python telemetry scripts.
     </p>
     <p>
       <strong className="text-white">mochajoe.dev</strong> serves as the frontend interface to that ecosystem — a custom-built <strong className="text-white">Next.js</strong> platform designed to integrate directly with self-hosted infrastructure, telemetry systems, and backend services running within my lab environment.
