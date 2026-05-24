@@ -46,20 +46,20 @@ export default function LandingPage() {
     <span className="text-zinc-500">Center</span>
   </h1>
   
-  {/* MISSION BRIEFING (Your new section) */}
+  {/* MISSION BRIEFING */}
   <div className="mt-6 max-w-xl">
     <p className="text-zinc-400 text-sm md:text-base leading-relaxed font-sans tracking-wide">
       <span className="text-red-600 font-bold uppercase mr-2">[Briefing]</span> 
       Welcome to the <span className="text-white">Mainframe</span>. This is my central landing page where you can  explore my <span className="text-white">Development Portfolio</span>, monitor 
       live <span className="text-white">Network Stats</span> from my Pi-hole, 
-      or interface with my <span className="text-white">AI Terminal</span>.
+      or check out the <span className="text-white">ISS Telemetry</span>.
     </p>
   </div>
 
   <div className="flex gap-4 mt-6 text-[10px] text-zinc-600 uppercase tracking-[0.2em] font-bold">
     <span>Operator: Mochajoe</span>
     <span>//</span>
-    <span>Status: Active</span>
+    <span>Status: In Progress</span>
   </div>
 </div>
           
@@ -93,15 +93,6 @@ export default function LandingPage() {
               </p>
             </Link>
 
-            {/* AI MODULE */}
-            <a href="https://ai.mochajoe.dev" target="_blank" rel="noopener noreferrer" className="group bg-zinc-950/80 border border-zinc-800 p-8 hover:bg-red-950/10 hover:border-red-600 transition-all">
-              <span className="text-red-600 text-xs mb-2 block font-bold">04</span>
-              <h2 className="text-xl font-bold uppercase group-hover:tracking-widest transition-all">AI Terminal</h2>
-              <p className="text-zinc-500 text-[10px] mt-4 leading-relaxed uppercase tracking-tighter">
-                LLM Integration / Heuristic Processing / Neural Link
-              </p>
-           </a>
-
           </div>
         
 
@@ -116,9 +107,9 @@ export default function LandingPage() {
     {/* Changed to grid-cols-3 to match your 3 items */}
     <div className="grid grid-cols-1 md:grid-cols-3 gap-y-8 md:gap-x-12">
       {[
-        { label: "Host", val: "2 Clustered Proxmox VE Nodes" },
-        { label: "GPU", val: "RTX A2000 6GB // DeepSeek-R1" },
-        { label: "Network", val: "pfSense, Pi-hole, TP-Link Managed switch" }
+        { label: "Host", val: "Proxmox VE with 6 containers" },
+        { label: "GPU", val: "RTX A2000 6GB" },
+        { label: "Network", val: "Omada controller with ER707-M2 v1.30 runing open vpn, TL-SG2008P switch and EAP770 AP." }
       ].map((item, i) => (
         <div key={i} className="relative border-l border-zinc-800 pl-6 group">
           {/* Subtle hover accent */}

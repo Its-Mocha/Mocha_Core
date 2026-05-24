@@ -84,10 +84,10 @@ export default function PortfolioPage() {
       <div className="w-1 h-1 bg-red-600"></div> Professional Deployment
     </div>
     <p>
-      Serving as an <strong className="text-white uppercase tracking-tighter">IT Technician</strong> at <strong className="text-red-600">Ducommun AeroStructures</strong>. I specialize in <strong className="text-white">Identity Management</strong> and security infrastructure, driving CMMC compliance and hardening enterprise nodes. 
+      Serving as an <strong className="text-white uppercase tracking-tighter">IT Technician</strong> at <strong className="text-red-600">Ducommun AeroStructures</strong>. I specialize in <strong className="text-white">Identity & Access Management</strong>, endpoint administration, and enterprise infrastructure support within a regulated manufacturing environment.
     </p>
     <p>
-      I manage a fleet of <strong className="text-white">200+ endpoints</strong>, orchestrating large-scale <strong className="text-white">Windows 11 migrations</strong> and Active Directory administration. I bridge the gap between high-level backend security and end-user operational efficiency.
+     I manage and support a fleet of <strong className="text-white">200+ enterprise endpoints</strong>, lead large-scale <strong className="text-white">Windows 11 deployments</strong>, administer <strong className="text-white">Active Directory</strong>, and contribute to security initiatives aligned with <strong className="text-white">CMMC compliance</strong> and operational hardening.
     </p>
   </div>
 
@@ -97,14 +97,14 @@ export default function PortfolioPage() {
       <div className="w-1 h-1 bg-red-600"></div> Lab Ops & Dev
     </div>
     <p>
-      In my private sector, I maintain a high-availability <strong className="text-white">Proxmox Cluster</strong> utilizing <strong className="text-white">ZFS Mirroring</strong> and <strong className="text-white">pfSense</strong> for network edge security. This environment serves as the staging ground for my automated Python telemetry scripts and AI integrations.
+      In my private sector, I maintain a high-availability <strong className="text-white">Proxmox Cluster</strong> utilizing <strong className="text-white">ZFS Mirroring</strong> and <strong className="text-white">Onada</strong> for networking This environment serves as the staging ground for my automated Python telemetry scripts.
     </p>
     <p>
-      This platform (mochajoe.dev) is a full-stack <strong className="text-white">Next.js</strong> implementation designed to interface with my local infrastructure. It serves as a live demonstration of my ability to deploy modern web technologies that sync with backend containerized services.
+      <strong className="text-white">mochajoe.dev</strong> serves as the frontend interface to that ecosystem — a custom-built <strong className="text-white">Next.js</strong> platform designed to integrate directly with self-hosted infrastructure, telemetry systems, and backend services running within my lab environment.
     </p>
   </div>
   <div className="pt-4 italic text-zinc-500 text-xs border-l border-red-600 pl-4">
-    "Operating with a 'Do whatever it takes' methodology to ensure 99.9% uptime and infrastructure integrity."
+   "Building resilient infrastructure with a hands-on mindset focused on reliability, automation, and continuous improvement."
   </div>
 
   {/* CORE HEURISTICS (Skill Set) */}
